@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+body{
+background-color: black;
+justify-content: center;
+text-align: center;
+font-size:18px;
+}
+hr {
+    border-top: 2px solid black;
+    width: 30%;
+    margin-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+background-color: rgb(20, 19, 19);
+align-items: center;
+padding:20px;
+width: 500px;
+height: 500px;
+color: aliceblue;
+border-radius: 30px;
+margin-left: auto;
+margin-top: 50px;
+margin-right: auto;
+animation: mymove 5s ;
+position: relative;
+box-shadow: 2px 2px 3px 3px rgb(192, 117, 167);
+align-content: center;
+cursor: grab;
+
+}
+
+h1{
+    color: rgb(192, 117, 167);
+    font-family: 'Brush Script MT', cursive; 
+    text-align: center;
+    font-size: 40px;
+}
+@keyframes mymove {
+    from {left:-100px;}
+    to {left: 10px;}
+  }
+  .price{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .price select{
+    color: rgb(192, 117, 167);
+    background-color:transparent;
+    padding:2px;
+    width : 80px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(192, 117, 167);
+    border: none;
+    font-weight: bold;
+
+  }
+  .price input{
+    color: rgb(100, 10, 85);
+    font-weight: bold;
+    border-radius: 30px;
+    width: 60px;
+    padding:4px;
+  }
+ 
+  .price select option{
+    background-color: #0f0e0f;
+    font-size: 1rem;
+    color:  rgb(192, 117, 167);
+    
+    
+}
+  h4{
+    margin-bottom: 40px;
+  }
+  
