@@ -6,9 +6,11 @@
  
 }
 body{
-background-color: black;
-justify-content: center;
+background-image: linear-gradient(to right, rgb(7, 7, 7) , rgb(87, 87, 84));
+ justify-content: center;
 text-align: center;
+background-position: center;
+background-size: cover;
 font-size:18px;
 }
 hr {
@@ -23,7 +25,7 @@ background-color: rgb(20, 19, 19);
 align-items: center;
 padding:20px;
 width: 500px;
-height: 500px;
+height: 550px;
 color: aliceblue;
 border-radius: 30px;
 margin-left: auto;
@@ -31,14 +33,15 @@ margin-top: 50px;
 margin-right: auto;
 animation: mymove 5s ;
 position: relative;
-box-shadow: 2px 2px 3px 3px rgb(192, 117, 167);
+box-shadow: 2px 2px 3px 3px rgb(152, 70, 160);
 align-content: center;
 cursor: grab;
+
 
 }
 
 h1{
-    color: rgb(192, 117, 167);
+    color: rgb(152, 70, 160);
     font-family: 'Brush Script MT', cursive; 
     text-align: center;
     font-size: 40px;
@@ -52,19 +55,19 @@ h1{
     padding-bottom: 5%;
   }
   .price select{
-    color: rgb(192, 117, 167);
+    color: rgb(152, 70, 160);
     background-color:transparent;
     padding:2px;
     width : 80px;
     height: 25px;
     border-radius: 10px;
-    box-shadow: 2px 2px rgb(192, 117, 167);
+    box-shadow: 2px 2pxrgb(5, 46, 17);
     border: none;
     font-weight: bold;
 
   }
   .price input{
-    color: rgb(100, 10, 85);
+    color: rgb(152, 70, 160);
     font-weight: bold;
     border-radius: 30px;
     width: 60px;
@@ -72,13 +75,48 @@ h1{
   }
  
   .price select option{
-    background-color: #0f0e0f;
+    background-color: #c7b49e ;
     font-size: 1rem;
-    color:  rgb(192, 117, 167);
+    color: rgb(152, 70, 160);
     
     
 }
   h4{
     margin-bottom: 40px;
   }
+
+  button#exchange  {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color:#f2f5f2;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    padding-bottom : 0.3rem;
+    border: none;
+   /* border: 2px solid #000;*/
+    border-radius: 50%;
+}
+button#exchange:hover{
+    color:rgb(234, 225, 235);
+    background-color: rgb(152, 70, 160);
+    border: none;
+    border-radius: 50%;
+}
+
+button#exchange:active{
+
+}
+select:focus, input:focus, button:focus {
+	outline: 0;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
   
